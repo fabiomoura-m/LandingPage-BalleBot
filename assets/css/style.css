@@ -69,8 +69,11 @@ body {
   border-radius: 20px;
   color: #2f2325;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
-
+.main-content-written-button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
 .secondary-content {
   margin-top: 48px;
   display: flex;
@@ -91,4 +94,14 @@ body {
   font-family: 'Sarala', sans-serif;
   font-size: 18px;
   color: #ecd6c4;
+}
+
+.footer {
+  border-top: 0.4px solid #fff2e7;
+  padding: 32px;
+}
+.footer-image {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
