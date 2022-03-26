@@ -30,3 +30,43 @@ body {
   color: #fff2e7;
   font-size: 18px;
 }
+
+.content {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-content-written {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.main-content-written-title {
+  font-family: 'Righteous', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff2e7;
+}
+.main-content-written-subtitle {
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ecd6c4;
+}
+.main-content-written-button {
+  width: 185px;
+  height: 67px;
+  border: none;
+  outline: none;
+  background-color: #ecd6c4;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 20px;
+  color: #2f2325;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
