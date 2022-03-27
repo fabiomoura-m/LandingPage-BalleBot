@@ -25,6 +25,9 @@ body {
   display: flex;
   gap: 32px;
 }
+.header-menuOpener {
+  display: none;
+}
 .header-menu-item {
   font-family: 'Sarala', sans-serif;
   color: #fff2e7;
@@ -135,5 +138,54 @@ body {
   }
   .footer-image {
     height: 40px;
+  }
+}
+
+@media (max-width: 426px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .main-content-written {
+    align-items: center;
+  }
+  .main-content-written-title {
+    font-size: 42px;
+  }
+  .main-content-written-subtitle {
+    font-size: 17px;
+  }
+  .main-content-written-button {
+    width: 150px;
+    height: 55px;
+  }
+  .main-content-image {
+    margin-left: 0;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .header-menuOpener {
+    display: block;
+  }
+  .header-menu {
+    flex-direction: column;
+    position: absolute;
+    width: 70vw;
+    background-color: #8e5d52f6;
+    top: 120px;
+    right: 0px;
+    gap: 16px;
+    padding: 20px;
+    z-index: 2;
+    display: none;
+  }
+  .header-menu-item:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 325px) {
+  .main-content-image {
+    width: 280px;
   }
 }
