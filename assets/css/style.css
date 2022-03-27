@@ -105,3 +105,35 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .content {
+    padding: 0 20px;
+  }
+  .main-content-written-title {
+    font-size: 48px;
+  }
+  .main-content-written-subtitle {
+    font-size: 18px;
+  }
+  .main-content-written-button {
+    width: 160px;
+    height: 55px;
+  }
+  .main-content-image {
+    height: 350px;
+    margin-left: 12px;
+  }
+  .secondary-content {
+    align-items: flex-start;
+  }
+  .secondary-content-title {
+    align-self: center;
+  }
+  .secondary-content-paragraph {
+    font-size: 16px;
+  }
+  .footer-image {
+    height: 40px;
+  }
+}
