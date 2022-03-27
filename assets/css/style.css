@@ -28,6 +28,9 @@ body {
 .header-menuOpener {
   display: none;
 }
+.header-menu.openMobile {
+  display: flex;
+}
 .header-menu-item {
   font-family: 'Sarala', sans-serif;
   color: #fff2e7;
@@ -166,6 +169,10 @@ body {
   }
   .header-menuOpener {
     display: block;
+    cursor: pointer;
+  }
+  .header-menu-item {
+    display: block;
   }
   .header-menu {
     flex-direction: column;
@@ -174,18 +181,21 @@ body {
     background-color: #8e5d52f6;
     top: 120px;
     right: 0px;
-    gap: 16px;
+    gap: 32px;
     padding: 20px;
     z-index: 2;
     display: none;
   }
   .header-menu-item:hover {
-    text-decoration: underline;
+    color: rgba(236, 214, 196, 0.8);
   }
 }
 
 @media (max-width: 325px) {
   .main-content-image {
     width: 280px;
+  }
+  .secondary-content-title {
+    font-size: 21px;
   }
 }
